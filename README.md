@@ -23,15 +23,13 @@ Build a professional portfolio site using HTML/CSS. Include a short style guide;
 
    * Make sure to `git add .` and `git commit -m "initial site files"`. Then type `git push origin master` to push your changes to your GitHub repo.
 
-5. Reference these screenshots for your site:
+5. Reference these  for your site:
 
-   ![Portfolio About](Images/portfolio-about-me.png)
+   Portfolio About
 
-   ![Portfolio Contact](Images/portfolio-contact.png)
+   Portfolio Contact
 
-   ![Portfolio Gallery](Images/portfolio-gallery.png)
-
-   * **IMPORTANT** Your site's layout must match the designs in these screenshots. You'll find the specs for these designs below.
+   Portfolio Gallery
 
 6. When you create a website, it's standard practice to code your HTML files before writing any CSS and to write up one HTML file before moving onto the next. Write your HTML semantically, too:
 
@@ -54,7 +52,7 @@ Build a professional portfolio site using HTML/CSS. Include a short style guide;
 
 ### Additional Specifcations
 
-1. Colors _Pro-tip: Use the [Eye Dropper](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka) Chrome extension to find the colors used on web pages._
+1. Colors _Pro-tip:
    * Teal color (used for headings and backgrounds): `#4aaaa5`
    * Regular font color (used for paragraphs and all text besides the headings): `#777777`
    * Main header background color: `#ffffff`
