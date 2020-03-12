@@ -81,8 +81,6 @@ Build a professional portfolio site using HTML/CSS. Include a short style guide;
 6. Dimensions:
    * The entire content and the main section content area is `960px` wide.
 
-   ![Recommended Dimensions](Images/Recommended-Dimensions.png)
-
 
 ### Helpful Tips
 
