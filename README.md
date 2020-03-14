@@ -1,91 +1,83 @@
-# Recommended Assignment - That Portfolio Though
+## Responsiveness Assignment
 
-## Overview
+Overview
+In this assignment, you'll create two different portfolios. The first will be building your portfolio layout using the Bootstrap CSS Framework. The second will be enhancing the portfolio you made last unit with a mobile-responsive layout.
 
-Build a professional portfolio site using HTML/CSS. Include a short style guide; follow it to design an aesthetically pleasing layout while creating different kinds of complex HTML elements.
+Before You Begin
+If you opted to do the wireframe (easier) assignment for last homework or if you struggled with the portfolio design, ask a member of the instructional staff to provide you with the solution files. This will provide a starting point for the current assignment.
 
+You've learned a ton of material: HTML, CSS, GitHub, GitHub Pages, and Bootstrap. If you feel like you're falling behind, there's no need to panic. You'll have plenty of time to digest and master this material.
 
-### Instructions
+We're diving into JavaScript next unit, and HTML/CSS will start receiving less focus. Still, you'll find that a basic knowledge of HTML/CSS will help you understand JavaScript, especially when we use it to manipulate web pages.
 
-1. Create a new repository in GitHub called `Basic-Portfolio`.
+Submission on BCS
+Please submit both the deployed Github.io link to your homework AND the link to the Github Repository!
+Instructions
+Create two new GitHub repositories and name them Bootstrap-Portfolio and Responsive-Portfolio.
 
-2. Clone this repository to your computer using the process we went over in class.
-
-3. Navigate to the `Basic-Portfolio` folder that you just cloned onto your machine. Inside this folder, create the following:
-
-   * 3 HTML documents: `index.html`, `contact.html` and `portfolio.html`.
-   * A folder called `assets`.
-   * Inside the assets directory, make two additional folders: `css` and `images`.
-     * In the `css` folder, make a file called `style.css`.
-     * In the `images` folder, save the images you plan on using (like your profile image and the placeholder images for the portfolio).
-
-4. Push the above changes to GitHub.
-
-   * Make sure to `git add .` and `git commit -m "initial site files"`. Then type `git push origin master` to push your changes to your GitHub repo.
-
-5. Reference these  for your site:
-
-   Portfolio About
-
-   Portfolio Contact
-
-   Portfolio Gallery
-
-6. When you create a website, it's standard practice to code your HTML files before writing any CSS and to write up one HTML file before moving onto the next. Write your HTML semantically, too:
-
-   * If something is a heading, you use a heading tag.
-   * If something is a list, you use an unordered or ordered list tag.
-   * So on and so forth.
-
-7. The content for the `index.html` should be unique to **you**.
-
-   * Write a paragraph or two about yourself. Make it fun, show your personality!
-   * The main logo where it says "Your Name" should say your name. This may make the logo section smaller or wider depending on how long your name is—that is fine and expected.
-   * Add, commit, and push your code to GitHub often, especially when you complete a page.
-
-8. After all of your HTML is written, you can begin styling your pages using the `style.css` file you created.
-
-   * Be sure to [validate your html](https://validator.w3.org/#validate_by_input).
-   * Consult the specs below these instructions for advice on styling your CSS files.
-
-9. Push your changes to Github.
-
-### Additional Specifcations
-
-1. Colors _Pro-tip:
-   * Teal color (used for headings and backgrounds): `#4aaaa5`
-   * Regular font color (used for paragraphs and all text besides the headings): `#777777`
-   * Main header background color: `#ffffff`
-   * Main header border color: `#cccccc`
-   * Footer background color: `#666666`
-   * Main content background color: `#ffffff`
-   * Main content border color: `#dddddd`
-
-2. Fonts:
-   * For heading fonts use `font-family: 'Georgia', Times, Times New Roman, serif;`.
-   * For all other fonts use `'Arial', 'Helvetica Neue', Helvetica, sans-serif;`.
-
-3. Profile Image Found on `index.html`:
-   * Use a picture of yourself.
-   * If you don't have a picture, you can grab a placeholder image from [LoremPixel](http://lorempixel.com/). Save the images to your `images` folder.
-
-4. Portfolio Images:
-   * Placeholder images can be found at [LoremPixel](http://lorempixel.com/).
-   * Save the images to your `images` folder.
-
-5. Background Images:
-   * The background pattern used was found on [Subtle Patterns](https://subtlepatterns.com/). You can browse through that site and find whichever pattern you like.
-
-6. Dimensions:
-   * The entire content and the main section content area is `960px` wide.
+Clone these repositories to your computer.
 
 
-### Helpful Tips
 
-* Useful concepts: `float`, `padding`, `margin`, `display`, `overflow`, `clear` and `text-align`.
+### Assignment One Instructions (Bootstrap)
+Inside your Bootstrap-Portfolio repo, create index.html, portfolio.html and contact.html.
 
-### Reminder: Submission on BCS
+Using Bootstrap, recreate your portfolio site with the following items:
 
-Click here for link https://ml042685.github.io/Responsive-Portfolio/index.html
+A navbar
 
-- - -
+A responsive layout (remember the grid, rows and columns are your friends)
+
+eg. On an xs screen, content should take up the entire screen. On sm and larger screens, you should have some margins on the left and right side of the screen. Check out various sites on your mobile device versus your computer to see this in action!
+Responsive images
+
+BONUS Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (Hint: Check out the Bootstrap documentation)
+
+Your Bootstrap solution should minimize use of media queries.
+
+Deploy your new Bootstrap-powered portfolio to GitHub Pages.
+
+
+
+### Assignment Two Instructions - (No Bootstrap)
+Copy the contents of Basic-Portfolio (your first homework solution) and paste the mentioned files into Responsive-Portfolio.
+
+Note: Be sure not to include any dot files (e.g. .git, .gitignore) from the Basic-Portfolio repo.
+
+If you chose the Wireframe exercise for your first homework assignment, talk to a TA, who will provide you with a template for your portfolio.
+
+Inside your Responsive-Portfolio folder, find your styles.css file. You will write your media queries at the bottom of styles.css.
+
+Use three @media screen tags, each with one of these max-widths: 980px, 768px and 640px.
+
+You use 980px because you never want any of the content to be cut off. Since the desktop layout is about 960px wide, you want the media queries to kick in before your content gets cut off.
+
+768px is about the width of a tablet and 640px is about the width of a phone in landscape.
+
+Make the layout match the following screenshots:
+
+index.html: 980px, 768px, 640px
+
+portfolio.html: 980px, 768px, 640px
+
+contact.html: 980px, 768px, 640px
+
+Make the position of the header static (the default positioning) when the screen is 640px wide. The header design takes up a lot of room; you don't want it to stick to the top of a small screen and leave no room for the rest of your site.
+
+Be sure to include the viewport tag in all your HTML files, otherwise your media-queries won't function as expected on mobile devices. (Hint: You won't need to use exact pixels for anything other than the container)
+
+Protip: Use the Chrome extensions Window Resizer and Browser Width to see the browser dimensions in Chrome.
+
+Deploy your new portfolio (now with media queries!) to GitHub Pages.
+
+Submitting Your Work on BootCampSpot
+Submit the GitHub links to your portfolio repositories on GitHub.
+
+Submit the link to your (GitHub Pages) deployed site in the same input field.
+
+
+   
+   Click here for the link: https://ml042685.github.io/Bootstrap-Portfolio/
+   
+   Click here for the link: https://ml042685.github.io/Responsive-Portfolio/
+
