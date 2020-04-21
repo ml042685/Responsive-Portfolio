@@ -70,12 +70,17 @@ Protip: Use the Chrome extensions Window Resizer and Browser Width to see the br
 
 Deploy your new portfolio (now with media queries!) to GitHub Pages.
 
+## Technologies
+* HTML5
+* CSS3
+
+
 Submitting Your Work on BootCampSpot
 Submit the GitHub links to your portfolio repositories on GitHub.
 
 Submit the link to your (GitHub Pages) deployed site in the same input field.
 
-
+## Links
    
    Click here for the link: https://ml042685.github.io/Bootstrap-Portfolio/
    
